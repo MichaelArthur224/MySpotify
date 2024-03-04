@@ -1,0 +1,142 @@
+body {
+  background-color: #0f0f0f;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+.main{
+  scroll-behavior: smooth;
+}
+/*ARTIST/MAIN SECTION */
+.top{
+  padding-top: 50px;
+}
+
+.top .select {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.select select {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+  background-color: #1a1919;
+  width: 20vh;
+  margin: 0 auto; 
+  padding: 5px; 
+  font-size: 0.7rem; 
+}
+
+@media screen and (max-width: 768px) {
+  
+.select select {
+  max-width: 100%; 
+}
+
+.top li {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+  }
+}
+
+.top h1{
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.top ul {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 8px; 
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .top ul {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+}
+
+.top img {
+  width: 20vh;
+  height: 20vh;
+  object-fit: cover; 
+  display: block; 
+  margin: auto; 
+}
+
+.top li p {
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+/*TRACKS SECTION */
+.songs{
+  padding-top: 50px;
+}
+
+.songs h1{
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.songs ul {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 8px; 
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+.songs ul {
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+}
+
+.songs img {
+  width: 20vh;
+  height: 20vh;
+  object-fit: cover; 
+  display: block; 
+  margin: auto; 
+}
+
+.songs li p {
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+/*ABOUT SECTION */
+.about h1{
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.about p {
+  text-align: center;
+  color: white;
+  margin: 10px;
+  line-height: 50px;
+  font-size: 1rem;
+}
+
+  
