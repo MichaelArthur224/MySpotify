@@ -1,5 +1,5 @@
 # MySpotify
-This project was built using the [Spotify API](https://developer.spotify.com/documentation/web-api) and [Spotify API](https://github.com/thelinmichael/spotify-web-api-node).
+This project was built using the [Spotify API](https://developer.spotify.com/documentation/web-api) and [Spotify-web-API-node](https://github.com/thelinmichael/spotify-web-api-node).
 In the project directory, you can run:
 
 ``npm start`` and ``npm run devStart``
